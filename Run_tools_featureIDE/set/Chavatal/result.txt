@@ -1,0 +1,22 @@
+Tree:false, IntegerSet:true, HashSet:true, Tree:true, IntegerSet:true, HashSet:false, ********************************
+tree:falseintegerset:truehashset:true
+
+Configuration:
+tree:falseintegerset:truehashset:true
+
+
+ ----------------------- 
+
+
+cont: 1((( apos os testes))) 
+Configuration:
+tree:trueintegerset:truehashset:false
+
+cont: 2((( apos os testes))) 
+tree:trueintegerset:truehashset:false
+
+
+ ----------------------- 
+
+
+Contador de produtos:2

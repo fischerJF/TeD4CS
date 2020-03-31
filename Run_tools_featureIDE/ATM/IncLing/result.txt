@@ -1,0 +1,430 @@
+LOGGING:true, DEPOSITING:true, WITHDRAWING:true, BALANCE_INQUIRY:true, ADMIN_CONTROL:true, USER_INTERFACE:true, WITHDRAWING_ALL_VALUES:true, 
+LOGGING:false, DEPOSITING:false, WITHDRAWING:false, BALANCE_INQUIRY:false, ADMIN_CONTROL:false, USER_INTERFACE:false, WITHDRAWING_ALL_VALUES:false, 
+LOGGING:false, DEPOSITING:false, WITHDRAWING:true, BALANCE_INQUIRY:true, ADMIN_CONTROL:false, USER_INTERFACE:true, WITHDRAWING_ALL_VALUES:true, 
+LOGGING:true, DEPOSITING:true, WITHDRAWING:false, BALANCE_INQUIRY:true, ADMIN_CONTROL:false, USER_INTERFACE:false, WITHDRAWING_ALL_VALUES:false, 
+LOGGING:true, DEPOSITING:false, WITHDRAWING:true, BALANCE_INQUIRY:false, ADMIN_CONTROL:true, USER_INTERFACE:true, WITHDRAWING_ALL_VALUES:false, 
+LOGGING:false, DEPOSITING:true, WITHDRAWING:true, BALANCE_INQUIRY:false, ADMIN_CONTROL:false, USER_INTERFACE:false, WITHDRAWING_ALL_VALUES:false, 
+LOGGING:false, DEPOSITING:false, WITHDRAWING:false, BALANCE_INQUIRY:false, ADMIN_CONTROL:true, USER_INTERFACE:true, WITHDRAWING_ALL_VALUES:true, 
+LOGGING:false, DEPOSITING:false, WITHDRAWING:false, BALANCE_INQUIRY:false, ADMIN_CONTROL:false, USER_INTERFACE:false, WITHDRAWING_ALL_VALUES:false, 
+********************************
+LOGGING:trueDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+Configuration:
+
+ LOGGING:trueDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+cont: 1((( apos os testes))) 
+Configuration:
+LOGGING:trueDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+
+ ----------------------- 
+
+
+LOGGING:falseDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+
+ LOGGING:falseDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+cont: 2((( apos os testes))) 
+Configuration:
+LOGGING:falseDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+
+ ----------------------- 
+
+
+LOGGING:trueDEPOSITING:trueWITHDRAWING:falseBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+
+
+ LOGGING:trueDEPOSITING:trueWITHDRAWING:falseBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+1 null
+2 java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at testset.ATMTest.testCreateTransaction(ATMTest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError
+4 null
+5 testCreateTransaction(testset.ATMTest)
+6 class java.lang.AssertionError
+7 testCreateTransaction(testset.ATMTest)
+
+Balance Information:
+ - Available balance: $1.000,00
+ - Total balance:     $1.200,00
+
+ LOGGING:trueDEPOSITING:trueWITHDRAWING:falseBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+
+Please enter a deposit amount in CENTS (or 0 to cancel): 
+Please enter a deposit amount in CENTS (or 0 to cancel): 
+Please insert a deposit envelope containing $3,00.
+
+Your envelope has been received.
+NOTE: The money just deposited will not be available until we verify the amount of any enclosed cash and your checks clear.
+LOGGING:trueDEPOSITING:trueWITHDRAWING:falseBALANCE_INQUIRY:trueADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+
+
+ ----------------------- 
+
+
+LOGGING:trueDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:false
+
+cont: 3((( apos os testes))) 
+Configuration:
+
+ LOGGING:trueDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:false
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+cont: 4((( apos os testes))) 
+Configuration:
+LOGGING:trueDEPOSITING:falseWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:false
+
+
+ ----------------------- 
+
+
+LOGGING:falseDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+
+
+ LOGGING:falseDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+
+Please enter a deposit amount in CENTS (or 0 to cancel): 
+Please enter a deposit amount in CENTS (or 0 to cancel): 
+Please insert a deposit envelope containing $3,00.
+
+Your envelope has been received.
+NOTE: The money just deposited will not be available until we verify the amount of any enclosed cash and your checks clear.
+LOGGING:falseDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:falseADMIN_CONTROL:falseUSER_INTERFACE:falseWITHDRAWING_ALL_VALUES:false
+
+
+ ----------------------- 
+
+
+LOGGING:falseDEPOSITING:falseWITHDRAWING:falseBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+cont: 5((( apos os testes))) 
+Configuration:
+
+ LOGGING:falseDEPOSITING:falseWITHDRAWING:falseBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+1 expected:<788> but was:<800>
+2 java.lang.AssertionError: expected:<788> but was:<800>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at testset.ATMUserInterfaceTest2.ATMUserInterfaceTest(ATMUserInterfaceTest2.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at experiment.MainTestATM___ToolsFeatureIDE.executeJunitTestCase(MainTestATM___ToolsFeatureIDE.java:64)
+	at experiment.MainTestATM___ToolsFeatureIDE.expRun(MainTestATM___ToolsFeatureIDE.java:113)
+	at experiment.MainTestATM___ToolsFeatureIDE.main(MainTestATM___ToolsFeatureIDE.java:119)
+
+3 java.lang.AssertionError: expected:<788> but was:<800>
+4 null
+5 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+6 class java.lang.AssertionError
+7 ATMUserInterfaceTest(testset.ATMUserInterfaceTest2)
+java.awt.Font[family=Dialog,name=Dialog,style=bold,size=30]
+cont: 6((( apos os testes))) 
+LOGGING:falseDEPOSITING:falseWITHDRAWING:falseBALANCE_INQUIRY:falseADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+
+ ----------------------- 
+
+
+Contador de produtos:6

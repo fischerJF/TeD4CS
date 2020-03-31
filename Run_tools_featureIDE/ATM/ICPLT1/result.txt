@@ -1,0 +1,14 @@
+LOGGING:false, DEPOSITING:false, WITHDRAWING:false, BALANCE_INQUIRY:false, ADMIN_CONTROL:false, USER_INTERFACE:false, WITHDRAWING_ALL_VALUES:false, 
+LOGGING:true, DEPOSITING:true, WITHDRAWING:true, BALANCE_INQUIRY:true, ADMIN_CONTROL:true, USER_INTERFACE:true, WITHDRAWING_ALL_VALUES:true, 
+Configuration:
+LOGGING:trueDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:true
+
+LOGGING:trueDEPOSITING:trueWITHDRAWING:trueBALANCE_INQUIRY:trueADMIN_CONTROL:trueUSER_INTERFACE:trueWITHDRAWING_ALL_VALUES:truecont: 1((( apos os testes))) 
+
+
+
+ ----------------------- 
+
+
+Contador de produtos:1
+Total time (ms): 406 time average (ms): 406.0 number of times performed:1
